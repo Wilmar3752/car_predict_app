@@ -12,6 +12,6 @@ license: ß
 
 
 # car_predict_app
-APP for ML model
+APP for ML model car predict
 
 
