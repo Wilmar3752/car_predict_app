@@ -1,5 +1,5 @@
-CAR_PREDICT_URL = "http://0.0.0.0:8080/predict"
-
+#CAR_PREDICT_URL = "http://0.0.0.0:8080/predict"
+CAR_PREDICT_URL = "https://wilmars-car-predict.hf.space/predict"
 all_makes = {
    "Alfa":[
       "Romeo"

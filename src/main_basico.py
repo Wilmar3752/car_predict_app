@@ -2,19 +2,7 @@ import streamlit as st
 import requests
 from _settings import all_makes, locations, CAR_PREDICT_URL
 import json
-from babel.numbers import format_currency
-
-def format_pesos_colombianos(value):
-    """
-    Formatea un valor numérico a una cadena representando pesos colombianos sin decimales.
-    
-    Args:
-    value (float): El valor numérico a formatear.
-    
-    Returns:
-    str: La cadena formateada.
-    """
-    return format_currency(int(round(value, 0)), 'COP', locale='es_CO', format='#,##0')
+from utils import format_pesos_colombianos, client_ip, get_user_agent, get_screen_resolution
 
 MAKES = all_makes.keys()
 DEPARTAMENTOS = locations.keys()
@@ -31,6 +19,9 @@ else:
 kilometraje = st.number_input("Ingresa el Kilometraje")
 vehicle_model = st.number_input("Ingresa el modelo")
 
+ip = client_ip()
+user = get_user_agent()
+
 payload = {
     "vehicle_model": vehicle_model,
     "vehicle_make": vehicle_make,
@@ -39,6 +30,9 @@ payload = {
     "location_city": location_city,
     "location_state": location_state
 }
+
+print(ip)
+print(user)
 
 if st.button("Predict"):
     with st.spinner('Procesando...'):
