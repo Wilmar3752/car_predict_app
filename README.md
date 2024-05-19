@@ -5,7 +5,7 @@ colorFrom: red
 colorTo: red
 sdk: streamlit
 sdk_version: 1.34.0
-app_file: srs/main_basico.py
+app_file: src/main_basico.py
 pinned: false
 license: mit
 ---
