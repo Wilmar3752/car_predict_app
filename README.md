@@ -7,7 +7,7 @@ sdk: streamlit
 sdk_version: 1.34.0
 app_file: srs/main_basico.py
 pinned: false
-license: ß
+license: mit
 ---
 
 
