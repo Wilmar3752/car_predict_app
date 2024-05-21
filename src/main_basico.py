@@ -7,17 +7,17 @@ from utils import format_pesos_colombianos, client_ip, get_user_agent, get_scree
 MAKES = all_makes.keys()
 DEPARTAMENTOS = locations.keys()
 
-st.title("ML Prediction App")
-vehicle_make = st.selectbox("Select vehicle brand", MAKES)
-vehicle_line = st.selectbox("select line", all_makes[vehicle_make])
+st.title("Conoce el precio de tu carro")
+vehicle_make = st.selectbox("Selecciona la marca del vehiculo", MAKES)
+vehicle_line = st.selectbox("Selecciona la línea", all_makes[vehicle_make])
 location_state = st.selectbox("Selecciona tu departamento o el más cercano", DEPARTAMENTOS)
 if location_state == "Bogotá D.C.":
     location_city = st.selectbox("Selecciona la localidad más cercana", locations[location_state])
 else:
     location_city = st.selectbox("Selecciona la ciudad más cercana", locations[location_state])
 
-kilometraje = st.number_input("Ingresa el Kilometraje")
-vehicle_model = st.number_input("Ingresa el modelo")
+kilometraje = st.number_input("Ingresa el Kilometraje", value=10_000)
+vehicle_model = st.number_input("Ingresa el modelo", value = 2023)
 
 ip = client_ip()
 user = get_user_agent()
@@ -31,8 +31,6 @@ payload = {
     "location_state": location_state
 }
 
-print(ip)
-print(user)
 
 if st.button("Predict"):
     with st.spinner('Procesando...'):
@@ -41,4 +39,4 @@ if st.button("Predict"):
         
         price = response.json()['expected_price']
         formatted_price = format_pesos_colombianos(price)
-        st.success(f'El precio de este vehículo es ${formatted_price}')
+        st.success(f'El precio sugerido de este vehículo es ${formatted_price}')
