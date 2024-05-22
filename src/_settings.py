@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+import os
 #CAR_PREDICT_URL = "http://0.0.0.0:8080/predict"
 CAR_PREDICT_URL = "https://wilmars-car-predict.hf.space/predict"
 all_makes = {
@@ -499,3 +502,10 @@ all_makes = {
 
 
 locations = {'Antioquia': ['Envigado', 'Medellín', 'Sabaneta', 'La Estrella', 'Bello', 'Girardota', 'Retiro', 'Itaguí', 'El Carmen de Viboral', 'Copacabana', 'Caldas', 'Abejorral', 'Rionegro'], 'Bogotá D.C.': ['Suba', 'Puente Aranda', 'Engativa', 'Bosa', 'Chapinero', 'Kennedy', 'Usaquén', 'Ciudad Bolívar', 'Teusaquillo', 'Rafael Uribe Uribe', 'Fontibón', 'Tunjuelito', 'Barrios Unidos', 'Antonio Nariño', 'Martires', 'Usme', 'San Cristobal Sur', 'Santa Fe'], 'Boyaca': ['Tunja', 'Duitama', 'Chiquinquirá'], 'Cundinamarca': ['Cota', 'La Calera', 'Facatativá', 'Soacha', 'Mosquera', 'Chía', 'Cajicá', 'Tabio', 'Cáqueza', 'Funza', 'Fusagasugá', 'Tenjo', 'Madrid', 'Zipaquirá', 'Sibaté'], 'Norte De Santander': ['Cúcuta'], 'Quindio': ['Armenia'], 'Santander': ['Floridablanca', 'Bucaramanga'], 'Valle Del Cauca': ['Cali']}
+
+DATABASE_CONFIG = {
+    "dbname": os.environ['DB_NAME'],
+    "user":  os.environ['USER_NAME'],
+    "password":  os.environ['PASSWORD'],
+    "host":  os.environ['HOST']
+}

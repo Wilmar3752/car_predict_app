@@ -3,6 +3,7 @@ import requests
 from _settings import all_makes, locations, CAR_PREDICT_URL
 import json
 from utils import format_pesos_colombianos, client_ip, get_user_agent, get_screen_resolution
+from db_manager import insert_data_into_database
 
 MAKES = all_makes.keys()
 DEPARTAMENTOS = locations.keys()
@@ -39,4 +40,6 @@ if st.button("Predict"):
         
         price = response.json()['expected_price']
         formatted_price = format_pesos_colombianos(price)
+        # Insert data into the database
+        insert_data_into_database(vehicle_model, vehicle_make, vehicle_line, kilometraje, location_city, location_state)
         st.success(f'El precio sugerido de este vehículo es ${formatted_price}')
