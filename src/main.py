@@ -75,7 +75,7 @@ elif st.session_state.etapa_actual == 2:
              # Asegúrate de tener una función para formatear el precio si es necesario
             st.success(f'El precio de este vehículo es ${price}')
             insert_data_into_database(nombre, email, telefono, objetivo, 
-                            vehicle_model, vehicle_make, vehicle_line, kilometraje, location_city, location_state,
+                            vehicle_model, vehicle_make, vehicle_line, kilometraje, location_city, location_state, price,
                             ip=ip_data['ip'], ip_city=ip_data['city'], ip_state=ip_data['region'], ip_org=ip_data['org'], ip_postal=ip_data['postal'])
 
 
