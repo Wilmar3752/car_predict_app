@@ -4,9 +4,13 @@ from _settings import all_makes, locations, CAR_PREDICT_URL
 import json
 from utils import format_pesos_colombianos, get_info_from_ip
 from db_manager import insert_data_into_database
+from PIL import Image
 MAKES = all_makes.keys()
 DEPARTAMENTOS = locations.keys()
 
+# Config
+page_icon = Image.open('./src/assets/carro.png')
+st.set_page_config(layout="centered", page_title="CAR PREDICT", page_icon=page_icon)
 # Inicializar el estado de sesión si no existe
 if 'etapa_actual' not in st.session_state:
     st.session_state.etapa_actual = 1
