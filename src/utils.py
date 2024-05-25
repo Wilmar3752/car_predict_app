@@ -1,5 +1,10 @@
 from babel.numbers import format_currency
 from streamlit_javascript import st_javascript
+from dotenv import load_dotenv
+import os
+import requests
+
+load_dotenv()
 
 def format_pesos_colombianos(value):
     """
@@ -26,20 +31,9 @@ def client_ip():
         else: return None
     except: return None
 
-def get_user_agent():
-    try:
-        user_agent = st_javascript('navigator.userAgent')
-        if user_agent: return user_agent
-        else: return None
-    except: return None
-
-def get_screen_resolution():
-    script = '({width: window.screen.width, height: window.screen.height})'
-    try:
-        screen_res = st_javascript(script)
-        if screen_res:
-            width = screen_res.get('width')
-            height = screen_res.get('height')
-            return f"{width}x{height}"
-        else: return None
-    except: return None
+def get_info_from_ip():
+    ip = client_ip()
+    token = os.environ['IP_INFO_TOKEN']
+    ipapi_url = f"https://ipinfo.io/{ip}?token={token}"
+    response_json = requests.get(ipapi_url).json()
+    return response_json
