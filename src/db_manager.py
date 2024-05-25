@@ -21,7 +21,7 @@ def insert_data_into_database(nombre, email, telefono , objetivo,  #personal
         cursor = conn.cursor()
         query = """
         INSERT INTO car_prices (nombre, email, telefono, objetivo, 
-                                vehicle_model, vehicle_make, vehicle_line, kilometraje, location_city, location_state, price,
+                                vehicle_model, vehicle_make, vehicle_line, kilometraje, location_city, location_state, expected_price,
                                 ip, ip_city, ip_state, ip_org, ip_postal)
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
         """
