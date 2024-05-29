@@ -11,7 +11,17 @@ license: mit
 ---
 
 
-# car_predict_app
-APP for ML model car predict ACTUALIZADO
+# Car predict APP :pick:
+APP for ML model car predict.
+
+## Run Locally :zap:
+```bash
+python3 -m venv myenv
+source myenv/bin/activate
+
+pip install requierements.txt
+
+streamlit run src/main.py
+```
 
 
