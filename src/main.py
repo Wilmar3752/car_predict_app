@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from _settings import all_makes, locations, CAR_PREDICT_URL
+from _settings import all_makes, locations, CAR_PREDICT_URL, all_models
 import json
 from utils import format_pesos_colombianos, get_info_from_ip
 from db_manager import insert_data_into_database
@@ -49,7 +49,7 @@ elif st.session_state.etapa_actual == 2:
         location_city = st.selectbox("Selecciona la ciudad más cercana", locations[location_state])
 
     kilometraje = st.number_input("Ingresa el Kilometraje")
-    vehicle_model = st.number_input("Ingresa el modelo")
+    vehicle_model = st.selectbox("Ingresa el modelo", all_models)
 
     payload = {
         "vehicle_model": vehicle_model,
