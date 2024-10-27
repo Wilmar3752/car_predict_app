@@ -3,5 +3,5 @@ streamlit-javascript==0.1.5
 requests==2.31.0
 Babel==2.14.0
 python-dotenv==1.0.1
-psycopg2-binary==2.9.9
+psycopg2-binary==2.9.10
 watchdog==4.0.1

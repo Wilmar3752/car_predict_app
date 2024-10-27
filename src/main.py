@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from _settings import all_makes, locations, CAR_PREDICT_URL, all_models
+from _settings import all_makes, locations, CAR_PREDICT_URL, all_models, versions
 import json
 from utils import format_pesos_colombianos, get_info_from_ip
 from db_manager import insert_data_into_database
@@ -39,22 +39,30 @@ if st.session_state.etapa_actual == 1:
 
 # Etapa 2: Información del Vehículo
 elif st.session_state.etapa_actual == 2:
-    st.title("Conoce El Precio De Tu Carro")
-    vehicle_make = st.selectbox("Select vehicle brand", MAKES)
-    vehicle_line = st.selectbox("select line", all_makes[vehicle_make])
-    location_state = st.selectbox("Selecciona tu departamento o el más cercano", DEPARTAMENTOS)
+    st.title("🚗 Conoce El Precio De Tu Carro 🚗")
+    with st.container():
+        st.markdown('<style>h1{color:#007ACC;}</style>', unsafe_allow_html=True)
+
+    with st.container():
+        st.markdown('<style>h2{color:#007ACC;}</style>', unsafe_allow_html=True)
+        st.subheader("Elige tus opciones:")
+    vehicle_make = st.selectbox("🛠️ Marca del vehículo", MAKES)
+    vehicle_line = st.selectbox("🔧 Línea del vehículo", all_makes[vehicle_make])
+    version = st.selectbox("📌 Versión del vehículo", versions[vehicle_line])
+    location_state = st.selectbox("📍 Departamento", DEPARTAMENTOS)
     if location_state == "Bogotá D.C.":
         location_city = st.selectbox("Selecciona la localidad más cercana", locations[location_state])
     else:
         location_city = st.selectbox("Selecciona la ciudad más cercana", locations[location_state])
 
-    kilometraje = st.number_input("Ingresa el Kilometraje")
+    kilometraje = st.number_input("Ingresa el Kilometraje", value = 20000)
     vehicle_model = st.selectbox("Ingresa el modelo", all_models)
 
     payload = {
         "vehicle_model": vehicle_model,
         "vehicle_make": vehicle_make,
         "vehicle_line": vehicle_line,
+        "version": version,
         "kilometraje": kilometraje,
         "location_city": location_city,
         "location_state": location_state
@@ -76,6 +84,7 @@ elif st.session_state.etapa_actual == 2:
             st.success(f'El precio de este vehículo es ${price_print}')
             insert_data_into_database(nombre, email, telefono, objetivo, 
                             vehicle_model, vehicle_make, vehicle_line, kilometraje, location_city, location_state, price,
-                            ip=ip_data['ip'], ip_city=ip_data['city'], ip_state=ip_data['region'], ip_org=ip_data['org'], ip_postal=ip_data['postal'])
+                            ip=ip_data['ip'], ip_city=ip_data['city'], ip_state=ip_data['region'], ip_org=ip_data['org'],
+                            ip_postal=ip_data['postal'], version=version)
 
 
