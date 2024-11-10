@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 load_dotenv()
 import os
-#CAR_PREDICT_URL = "http://0.0.0.0:8080/predict"
+#CAR_PREDICT_URL = "http://0.0.0.0:7860/predict"
 CAR_PREDICT_URL = "https://wilmars-car-predict.hf.space/predict"
 all_makes = {'Audi': ['A3',
   'Q5',
