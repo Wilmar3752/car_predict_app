@@ -1,12 +1,12 @@
 import streamlit as st
 import requests
-from _settings import all_makes, locations, CAR_PREDICT_URL, all_models, versions
+from _settings import all_makes, CAR_PREDICT_URL, all_models
 import json
 from utils import format_pesos_colombianos, get_info_from_ip
 from db_manager import insert_data_into_database
 from PIL import Image
 MAKES = all_makes.keys()
-DEPARTAMENTOS = locations.keys()
+
 
 # Config
 page_icon = Image.open('./src/assets/carro.png')
@@ -29,8 +29,8 @@ with carros_tab:
         st.markdown('<style>h2{color:#007ACC;}</style>', unsafe_allow_html=True)
 
     vehicle_make = st.selectbox("🛠️ Marca del vehículo", MAKES)
-    vehicle_line = st.selectbox("🔧 Línea del vehículo", all_makes[vehicle_make])
-    version = st.selectbox("📌 Versión del vehículo", versions[vehicle_line])
+    vehicle_line = st.selectbox("🔧 Línea del vehículo", all_makes[vehicle_make].keys())
+    version = st.selectbox("📌 Versión del vehículo", all_makes[vehicle_make][vehicle_line])
     kilometraje = st.number_input("Ingresa el Kilometraje", value = 20000)
     vehicle_model = st.selectbox("Ingresa el modelo", all_models)
 

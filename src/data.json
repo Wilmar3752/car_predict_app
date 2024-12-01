@@ -1,0 +1,1488 @@
+{
+    "Ford": {
+        "Ranger": [
+            "Xlt",
+            "3.2 Xls",
+            "Xlt Diesel At",
+            "2.2 Xlt",
+            "Xls",
+            "3.2 Xlt",
+            "2.5 Xls",
+            "3.2 Limited"
+        ],
+        "Edge": [
+            "2.0 Titanium",
+            "3.5 Limited Fl",
+            "2.0 Sel",
+            "3.5 Se Fl",
+            "Limited",
+            "3.5 Limited",
+            "3.5 Titanium"
+        ],
+        "Fiesta": [
+            "Titanium",
+            "1.6 Titanium At",
+            "1.6 Sportback Titanium",
+            "1.6 Hatchback Mecánica",
+            "1.6 Hatchback Titanium",
+            "1.6 Titanium",
+            "Se",
+            "1.6 Sportback Automática",
+            "1.6 Hatchback Se",
+            "1.6 Sportback Se",
+            "1.6 Sportback At",
+            "1.6 Titanium Mt",
+            "1.6 Se",
+            "1.6 Sportback Mecánica"
+        ],
+        "Escape": [
+            "3.0 Xlt",
+            "2.0 Titanium 4x4",
+            "2.0 Titanium",
+            "2.0 Se 4x2",
+            "2.5 Se Hev",
+            "2.0 Titanium 245",
+            "2.0 Se",
+            "2.0 Se Awd",
+            "2.0 Se Tp",
+            "2.0 Se 245",
+            "2.0 Titanium Tp",
+            "Se",
+            "2.5 Se",
+            "2.0 Se 4x4",
+            "2.0 Titanium 240",
+            "Se 4x4"
+        ],
+        "F-150": [
+            "3.5 Lariat Sport",
+            "3.3 Xlt",
+            "3.5 Svt Raptor",
+            "6.2 Svt Raptor",
+            "3.5 Xlt"
+        ],
+        "Fusion": [
+            "2.0 Titanium 245",
+            "2.0 Titanium",
+            "2.0 Titanium Plus",
+            "3.0 V6 Sel"
+        ],
+        "Ecosport": [
+            "2.0 Se At",
+            "2.0 L 4x4",
+            "Titanium",
+            "2.0 Titanium",
+            "1.5 Se Mt",
+            "2.0 Se",
+            "2.0 Titanium At",
+            "2.0 Freestyle 4x4",
+            "2.0 Freestyle 4x2",
+            "2.0 Titanium Mt",
+            "2.0 L 4x2",
+            "Se",
+            "1.5 Se",
+            "2 2.0 Titanium"
+        ],
+        "Explorer": [
+            "2.3 Xlt",
+            "3.5 Limited 4x4",
+            "2.3 Limited 4x4",
+            "3.0 St",
+            "3.5 Limited",
+            "4.0 Xlt",
+            "2.3 Limited",
+            "4.6 Eddie Bauer"
+        ],
+        "Focus": [
+            "2.0 Se",
+            "Titanium",
+            "2.0 Titanium"
+        ],
+        "Bronco": [
+            "Sport 1.5 Big"
+        ]
+    },
+    "Daihatsu": {
+        "Terios": [
+            "1.5 Okii"
+        ]
+    },
+    "Subaru": {
+        "Forester": [
+            "2.0 Xt",
+            "2.5 Cvt Sport"
+        ],
+        "Xv": [
+            "2.0i",
+            "2.0i Limited"
+        ]
+    },
+    "Mazda": {
+        "3": [
+            "Grand Touring",
+            "2.0 Grand Touring",
+            "2.0 Touring At",
+            "2.0 Touring Hybrid",
+            "2.0 Lxha7",
+            "1.6 Z6nm7",
+            "2.0",
+            "2.0 Lxna0 All",
+            "1.6 Z6na0 All",
+            "2.0 Prime",
+            "Grand Touring Lx",
+            "2.0 Sport Grand",
+            "1.6 Z6hm7",
+            "2.5 Grand Touring",
+            "Touring",
+            "2.0 Touring",
+            "2.0 Sport Touring"
+        ],
+        "Cx-50": [
+            "2.5 Grand Touring"
+        ],
+        "2": [
+            "1.5 Prime",
+            "1.5 15ha1c",
+            "1.5 15na1 Sedan",
+            "1.5 Touring At",
+            "1.5 15hm1c",
+            "1.5",
+            "1.5 Touring Sedan",
+            "Touring",
+            "Grand Touring Lx",
+            "1.5 Prime Sedan",
+            "1.5 Touring",
+            "1.5 Grand Touring",
+            "1.5 15hm8",
+            "1.5 At"
+        ],
+        "Cx-9": [
+            "2.5 Grand Touring"
+        ],
+        "323": [
+            "1.3 Hs"
+        ],
+        "Cx-30": [
+            "2.0 Grand Touring",
+            "2.0 Touring At",
+            "Touring At 2.0",
+            "2.0 Prime",
+            "2.0 Prime At",
+            "2.5 Grand Touring",
+            "2.0 Touring"
+        ],
+        "6": [
+            "2.5 Grand Touring"
+        ],
+        "Cx-3": [
+            "2.0 Grand Touring",
+            "2.0 Touring At",
+            "2.0 Touring Automática"
+        ],
+        "626": [
+            "2.0 Na0"
+        ],
+        "Bt-50": [
+            "2.2 B22d29",
+            "3.2 Professional",
+            "2.5 B25d49",
+            "2.2 B22c29 4x2",
+            "2.6 B26d49"
+        ],
+        "Cx-5": [
+            "2.0 Touring Station",
+            "Grand Touring",
+            "2.0 High Fwd",
+            "2.0 Touring At",
+            "2.5 Touring",
+            "2.0 Touring Camioneta",
+            "2.5 Touring At",
+            "2.0 Prime",
+            "2.0 Mid Fwd",
+            "2.5 Grand Touring",
+            "Touring",
+            "2.0 Touring",
+            "2.5 Touring 4x2"
+        ],
+        "Cx-60": [
+            "3.3 Grand Touring"
+        ],
+        "Cx30": [
+            "Touring Tp 2000cc"
+        ]
+    },
+    "Ssangyong": {
+        "Actyon": [
+            "2.3 A230 4x2",
+            "2.3 G23d 4x2"
+        ],
+        "Rexton": [
+            "2.7 Rx 270"
+        ],
+        "Kyron": [
+            "2.0 M200 Xdi"
+        ],
+        "Korando": [
+            "2.0 C Fl",
+            "2.0 C Diésel"
+        ]
+    },
+    "Land": {
+        "Rover": [
+            "Range Rover Evoque",
+            "Discovery Sport 2.0",
+            "Range Rover Sport",
+            "Range Rover 2.0"
+        ]
+    },
+    "Fiat": {
+        "Uno": [
+            "1.4 Way"
+        ],
+        "Fiorino": [
+            "1.3 Fire"
+        ],
+        "Strada": [
+            "1.6 Adventure Locker"
+        ],
+        "500": [
+            "1.4 Sport Bz"
+        ],
+        "Mobi": [
+            "1.0 Like"
+        ]
+    },
+    "Honda": {
+        "Cr-v": [
+            "2.4 Lx",
+            "1.5t Exl 4wd",
+            "2.4 City Plus",
+            "2.4 5dr Lxc",
+            "2.4 Ex",
+            "2.4"
+        ],
+        "Odyssey": [
+            "3.5 Exl"
+        ],
+        "Wr-v": [
+            "1.5 Ex",
+            "1.5 Lx"
+        ],
+        "Hr-v": [
+            "1.8 Exl Awd",
+            "1.8 Lx"
+        ],
+        "City": [
+            "Lx"
+        ],
+        "Fit": [
+            "1.3 Lx"
+        ],
+        "Pilot": [
+            "Prestige 5dr 2wd"
+        ],
+        "Civic": [
+            "1.8 Ex 4"
+        ]
+    },
+    "Volkswagen": {
+        "Nivus": [
+            "1.0 Highline At",
+            "1.0t Highline At",
+            "1.0 Comfortline"
+        ],
+        "Gol": [
+            "1.6 Comfortline Mt",
+            "1.6 Highline",
+            "1.6 Trendline",
+            "1.6 Power",
+            "1.6 Comfortline",
+            "1.6 Power 101",
+            "Trendline"
+        ],
+        "T-cross": [
+            "1.6l Comfortline At",
+            "1.0 Trendline",
+            "1.0 Tsi Trendline",
+            "1.6l Comfortline Plus",
+            "1.6l Trendline At"
+        ],
+        "Saveiro": [
+            "1.6l"
+        ],
+        "Crossfox": [
+            "1.6l"
+        ],
+        "Taos": [
+            "1.4 Tsi Comfortline"
+        ],
+        "Golf": [
+            "1.4 Tsi Trendline",
+            "1.8 Manhattan",
+            "1.6 Comfortline",
+            "1.4 Tsi Comfortline"
+        ],
+        "Voyage": [
+            "1.6 Comfortline",
+            "1.6 Trendline",
+            "Trendline"
+        ],
+        "Beetle": [
+            "2.5 Design"
+        ],
+        "Jetta": [
+            "2.0 Trendline 4",
+            "Europa",
+            "2.5 Trendline",
+            "2.0 Trendline",
+            "2.0 Gli",
+            "2.5 Highline",
+            "2.0 Trendline At",
+            "2.5",
+            "2.0 Europa",
+            "1.8 Gli",
+            "2.0 Comfortline",
+            "2.5 Comfortline",
+            "Comfortline",
+            "Gli",
+            "1.4 Tsi Comfortline",
+            "1.4 Tsi Highline"
+        ],
+        "Virtus": [
+            "1.6 Highline",
+            "1.6 Comfortline",
+            "1.6 Comfortline At"
+        ],
+        "Escarabajo": [
+            "1.6 Escarabajo"
+        ],
+        "Amarok": [
+            "3.0 Highline",
+            "2.0 Trendline",
+            "2.0 Highline",
+            "2.0 Comfortline",
+            "2.0 Andina",
+            "2.0 Trendline 4"
+        ],
+        "Polo": [
+            "Track 1.6",
+            "1.6 Comfortline",
+            "1.6 Comfortline At",
+            "1.6 Highline At"
+        ],
+        "Fox": [
+            "1.6 Xtreme"
+        ],
+        "Tiguan": [
+            "2.0 Trend &",
+            "Allspace Trendline 2.0",
+            "2.0 Sport &",
+            "Allspace Highline 2.0",
+            "Allspace Trendline 1.4",
+            "Allspace Comfortline 2.0"
+        ]
+    },
+    "Suzuki": {
+        "Vitara": [
+            "1.6 Glx All",
+            "1.6 Gl",
+            "1.6 2wd At",
+            "Live",
+            "1.6 Glx +",
+            "1.6 Live",
+            "Live 1.6 Gl",
+            "1.6 Gl All"
+        ],
+        "Ertiga": [
+            "1.4 Mpv"
+        ],
+        "Jimny": [
+            "1.3 Jlx"
+        ],
+        "Swift": [
+            "1.2",
+            "1.2 Hybrid",
+            "1.2 Hibrido",
+            "1.2 Gl",
+            "1.2 Dzire",
+            "Dzire At 2023",
+            "Sedán 1.2 Dzire",
+            "1.4 Gl",
+            "1.2 Dzire Ga",
+            "1.2 Hybrid 2wd",
+            "1.2 Dzire At",
+            "Live 1.2l"
+        ],
+        "Alto": [
+            "0.8 Std"
+        ],
+        "S-presso": [
+            "1.0"
+        ],
+        "Grand": [
+            "Vitara 1.6 Sz",
+            "Vitara 2.0 Sz",
+            "Vitara 1.5 Glx",
+            "Vitara 2.7 Sz",
+            "Vitara 2.4 Sz"
+        ],
+        "S-cross": [
+            "1.6 Gl 2wd"
+        ],
+        "Celerio": [
+            "1.0 Glx",
+            "1.0 Hg"
+        ]
+    },
+    "Mini": {
+        "Cooper": [
+            "R56 1.6 Coupe",
+            "S 2.0 Chili"
+        ],
+        "Countryman hibrid": [
+            "1.5 Countryman hibrid"
+        ]
+    },
+    "Volvo": {
+        "Xc60": [
+            "3.0 T6 Premium",
+            "3.0 T6 Awd",
+            "2.0 T5 Awd",
+            "2.0 T5 Fwd",
+            "2.5 T5 Awd"
+        ],
+        "Xc90": [
+            "2.0 T6 Awd",
+            "2.0 T8 Awd"
+        ],
+        "V40": [
+            "1.6 T4 Kinetic"
+        ]
+    },
+    "Byd": {
+        "Song": [
+            "Plus 1.5 Dm-i"
+        ]
+    },
+    "Chevrolet": {
+        "Aveo": [
+            "Emotion 1.6 Gti",
+            "1.5 Family",
+            "Emotion 1.6l",
+            "1.4 Sd",
+            "1.4 Five",
+            "1.6 Five",
+            "1.6",
+            "1.6 Gti",
+            "1.6 Gti Limited",
+            "Emotion 1.6 Gt",
+            "1.6 Sd"
+        ],
+        "Sail": [
+            "1.4 Lt 4",
+            "1.4 Ls Mecánica",
+            "1.4 Lt",
+            "1.4 Ls",
+            "1.4 Ltz",
+            "1.4 Ltz Sport",
+            "Ls",
+            "1.4 Lt 5",
+            "1.4 Ltz 4"
+        ],
+        "Grand": [
+            "Vitara 2.0 L",
+            "Vitara 2.7 Xl7",
+            "Vitara 2.5 V6",
+            "Vitara 1.6 L"
+        ],
+        "Sprint": [
+            "1.0"
+        ],
+        "Tahoe": [
+            "5.3 Lt",
+            "Z71"
+        ],
+        "Super": [
+            "Carry 1.0 Cargo"
+        ],
+        "Onix": [
+            "1.0t Premier At",
+            "1.0 Lt",
+            "1.0t Lt At",
+            "1.4 Lt",
+            "1.0t Lt",
+            "1.4 Activ",
+            "1.0t Automática",
+            "1.4 Ltz",
+            "1.0 Rs",
+            "Premier",
+            "1.4 Ltz 5",
+            "1.0t Ltz At",
+            "1.4 Ltz At",
+            "1.0t Rs Mt",
+            "1.4 Ltz Aut",
+            "1.4 Ltz 4"
+        ],
+        "Beat": [
+            "1.2 Ls",
+            "1.2 Ltz Mecánica",
+            "Premier",
+            "1.2 Ltz",
+            "1.2 Lt"
+        ],
+        "Trailblazer": [
+            "2.8 Ltz"
+        ],
+        "Sonic": [
+            "1.6 Lt 4",
+            "1.6 Lt 5",
+            "1.6 Lt"
+        ],
+        "Epica": [
+            "2.5l"
+        ],
+        "Blazer": [
+            "3.6 Rs"
+        ],
+        "Vitara": [
+            "1.6l"
+        ],
+        "Swift": [
+            "1.3"
+        ],
+        "Traverse": [
+            "3.6 Premier",
+            "3.6l Lt",
+            "3.6 High Country"
+        ],
+        "Captiva": [
+            "3.0 Sport",
+            "1.5 Premier Turbo",
+            "3.6 Sport",
+            "3.0 Sport 4x4",
+            "1.5 T Premier",
+            "2.4 Sport 169",
+            "2.4 Sport At",
+            "2.4 Sport 182",
+            "3.0 Sport At",
+            "2.4 Sport 4x2",
+            "2.4 A Sport",
+            "1.5 T Ltz",
+            "2.4 Sport"
+        ],
+        "Equinox": [
+            "1.5 Rs At",
+            "1.5 Ls",
+            "1.5 Rs",
+            "1.5 Lt",
+            "1.5 Premier"
+        ],
+        "N300": [
+            "1.2 Cargo Plus",
+            "1.2 Cargo",
+            "1.2 Move Plus",
+            "1.2 Move"
+        ],
+        "Spark": [
+            "1.0 Life Lujo",
+            "Gt Ltz",
+            "1.2 Gt",
+            "1.0 Lt M200",
+            "Gt 1.2 Lt",
+            "1.2 Gt Ltz",
+            "1.2 Gt Lt",
+            "1.2 Gt Ls",
+            "Gt 1.2 Ltz",
+            "1.0 7:24 Cronos",
+            "1.0 Life",
+            "1.2 Gt M300",
+            "1.0 Go"
+        ],
+        "Zafira": [
+            "2.0"
+        ],
+        "Optra": [
+            "1.8 Limited Mecánica",
+            "1.8 Advance",
+            "1.6 L",
+            "1.4 L",
+            "1.6 Advance"
+        ],
+        "Samurai": [
+            "1.3"
+        ],
+        "Cruze": [
+            "1.8 Lt",
+            "1.8 Platinum At",
+            "1.8 Ls",
+            "1.4 Ltz 4"
+        ],
+        "Luv": [
+            "3.0 Dmax 4x4",
+            "2.3 Dlx Tfr",
+            "2.4 Dmax"
+        ],
+        "Joy": [
+            "1.4 Ltz",
+            "1.4 Lt",
+            "Mt 2023"
+        ],
+        "Corsa": [
+            "1.4 L Evolution",
+            "1.4 Wind"
+        ],
+        "Montana": [
+            "1.2 T Ltz"
+        ],
+        "Tracker": [
+            "1.8 Ls Mecánica",
+            "1.8 Ls Automática",
+            "1.2 T Premier",
+            "1.8 Lt Automática",
+            "1.8 Lt 4x2",
+            "1.8 Ls Mt",
+            "1.8 Lt At",
+            "1.8 Lt",
+            "1.8 Ls At",
+            "Ls",
+            "1.8 Premier Awd",
+            "1.8 Ltz Awd",
+            "1.8 Ltz",
+            "1.8 Ls"
+        ],
+        "Colorado": [
+            "2.8 High Country"
+        ]
+    },
+    "Citroën": {
+        "C3": [
+            "1.6 Shine Automática",
+            "1.6 Feel Automática",
+            "1.4 Sx"
+        ],
+        "C4": [
+            "Cactus 1.6 Feel",
+            "Cactus 1.6 Shine"
+        ],
+        "C-elysée": [
+            "1.6 Shine"
+        ]
+    },
+    "Jeep": {
+        "Compass": [
+            "2.4 Sport",
+            "2.4 4x2 Sport",
+            "2.4 4x2 Longitud",
+            "2.4 Limited"
+        ],
+        "Grand": [
+            "Cherokee 3.6 Limited",
+            "Cherokee Limited",
+            "Cherokee 3.6 Laredo",
+            "Cherokee 4.7 Limited"
+        ],
+        "Wrangler": [
+            "3.8 Sport",
+            "3.6 Sport",
+            "3.6 Sport Unlimited",
+            "Sport"
+        ],
+        "Cherokee": [
+            "3.2 Longitude Plus",
+            "3.2 Longitude"
+        ],
+        "Renegade": [
+            "1.8 Sport Plus",
+            "1.8 Sport"
+        ]
+    },
+    "Jac": {
+        "S2": [
+            "1.5 Hfc7151eav"
+        ]
+    },
+    "Ram": {
+        "V700": [
+            "1.4 Rapid"
+        ]
+    },
+    "Porsche": {
+        "Macan": [
+            "3.0 S"
+        ]
+    },
+    "Zotye": {
+        "Nomada": [
+            "1.6l"
+        ]
+    },
+    "Bmw": {
+        "X5": [
+            "3.0 Xdrive35i Premium",
+            "3.0 Xdrive 40i",
+            "3.0 Xdrive35i",
+            "3.0 Xdrive30d Premium",
+            "3.0 Xdrive30d",
+            "3.0 Xdrive45e",
+            "2.0 Xdrive40e"
+        ],
+        "Z4": [
+            "2.0 Sdrive20i"
+        ],
+        "X6": [
+            "3.0 Xdrive40i",
+            "3.0 Xdrive35i"
+        ],
+        "Serie": [
+            "1 1.6 118i",
+            "5 2.0 530i",
+            "1 2.0 120i",
+            "3 2.0 330e",
+            "1 1.6 116i",
+            "3 2.5 325i",
+            "2 218i Gran",
+            "2 1.5 218i",
+            "5 2.5 525i",
+            "4 2.0 420i",
+            "3 2.0 330i",
+            "4 2.0 M420i",
+            "3 2.0 318i",
+            "2 2.0 220i",
+            "3 1.6 316i",
+            "5 2.0 520i",
+            "2 3.0 M240i",
+            "3 2.0 320i"
+        ],
+        "X3": [
+            "3.0 G01 M40i",
+            "2.0 F25 Xdrive20i",
+            "3.0 F25 Xdrive35i",
+            "3.0 F25 Xdrive28i",
+            "2.0 Xdrive30i",
+            "2.0 G01 Xdrive30i",
+            "3.0 F25 Xdrive30d",
+            "2.0 F25 Xdrive28i"
+        ],
+        "X1": [
+            "2.0 F48 Sdrive",
+            "2.0 Sdrive20i",
+            "2.0 E84 Xdrive",
+            "1.5 F48 Sdrive"
+        ],
+        "I3": [
+            "S Atelier"
+        ],
+        "X4": [
+            "2.0 Xdrive30i",
+            "2.0 Xdrive20d Xline",
+            "2.0 Xdrive 30i"
+        ]
+    },
+    "Peugeot": {
+        "3008": [
+            "1.6 Active",
+            "1.6 Gt Line",
+            "1.6 Allure"
+        ],
+        "5008": [
+            "2.0 Gt Line",
+            "1.6 Allure"
+        ],
+        "206": [
+            "1.4 Xr"
+        ],
+        "208": [
+            "1.6 Allure"
+        ],
+        "2008": [
+            "1.6 Active"
+        ]
+    },
+    "Cupra": {
+        "Formentor": [
+            "2.0 Tsi Mate",
+            "2.0 Tsi Metalizado"
+        ]
+    },
+    "Mitsubishi": {
+        "Lancer": [
+            "2.0 Avanzado"
+        ],
+        "Montero": [
+            "2.6 L042 Cabinado",
+            "3.0 V43 Wagon",
+            "2.4 V11",
+            "2.5 215 Hp",
+            "3.0 V13",
+            "3.0 215 Hp"
+        ],
+        "Outlander": [
+            "2.4 Kaiteki"
+        ],
+        "Nativa": [
+            "3.2l"
+        ],
+        "L200": [
+            "Sportero 2.5 High",
+            "Sportero 2.5 Superlujo"
+        ]
+    },
+    "Lexus": {
+        "Gx": [
+            "4.6 460 Premium"
+        ]
+    },
+    "Nissan": {
+        "Qashqai": [
+            "Sense",
+            "Advance",
+            "2.0 Sense 142",
+            "2.0 Advance",
+            "2.0 Sense",
+            "2.0 Exclusive 142",
+            "2.0 Advance 140",
+            "2.0l Exclusive 4x4",
+            "2.0 Advance 142",
+            "2.0l 4wd",
+            "2.0 Exclusive",
+            "2.0l 2wd",
+            "Exclusive",
+            "2.0 Exclusive 140"
+        ],
+        "Versa": [
+            "Advance",
+            "1.6 Advance At",
+            "1.6 Sense",
+            "1.6 Sense At",
+            "1.6 Exclusive",
+            "1.6 Advance",
+            "1.6 Drive",
+            "1.6 Advance Mt"
+        ],
+        "Kicks": [
+            "1.6 Advance",
+            "1.6 Sense",
+            "Advance",
+            "1.6 Exclusive"
+        ],
+        "Note": [
+            "1.6 Advance",
+            "1.6 Advance At"
+        ],
+        "Pathfinder": [
+            "3.5 R52 Advance",
+            "3.5 R52 Exclusive"
+        ],
+        "Patrol": [
+            "3.0 Y61 Grx"
+        ],
+        "Juke": [
+            "1.6l"
+        ],
+        "Xtrail": [
+            "2.5 Exclusive"
+        ],
+        "Sentra": [
+            "1.8 Exclusive",
+            "Advance",
+            "1.8 B17 Fl",
+            "2.0 S",
+            "2.0 Sl",
+            "1.6 B13",
+            "1.8 B17 Advance",
+            "2.0 Sl At",
+            "1.8 B17 Exclusive"
+        ],
+        "Murano": [
+            "3.5 Z52 Exclusive",
+            "Exclusive"
+        ],
+        "Np300": [
+            "Frontier 2.5 S",
+            "Frontier 2.5l",
+            "Frontier Le",
+            "Frontier 2.5 Cd"
+        ],
+        "Frontier": [
+            "2.4l 4x2",
+            "2.5l Mecánica Diésel",
+            "2.4l 4x4",
+            "2.5 Xe",
+            "2.5l Automática Diésel",
+            "2.5 Le",
+            "2.4l",
+            "2.5 D22/np300 Estacas",
+            "2.5 S Sport",
+            "2.5 Np 300",
+            "2.5 S",
+            "2.4 D22/np300",
+            "2.5 Np300",
+            "2.5l Asl Gasolina"
+        ],
+        "Navara": [
+            "2.5 High Lujo"
+        ],
+        "X-trail": [
+            "2.5 Exclusive",
+            "2.5 T32",
+            "2.5 S Basica",
+            "2.5 X Ltd",
+            "Exclusive",
+            "2.5 Advance"
+        ],
+        "March": [
+            "1.6 Advance",
+            "Sense",
+            "1.6 Sense Connect",
+            "Active",
+            "1.6 Advance At",
+            "1.6 Active Plus",
+            "1.6 Active",
+            "1.6 Sense",
+            "1.6 Sense At",
+            "1.6 Active Mt",
+            "1.6 Drive"
+        ],
+        "Tiida": [
+            "1.6 Miio",
+            "1.8 Emotion",
+            "1.8 Miio",
+            "1.8 Premium 4",
+            "1.8 Premium 5",
+            "1.8 Comfort"
+        ]
+    },
+    "Mg": {
+        "Zs": [
+            "1.5 Zs"
+        ]
+    },
+    "Toyota": {
+        "Rav4": [
+            "2.5 Xroad",
+            "2.0 Xle",
+            "2.5 Street",
+            "2.5 Le Hybrid",
+            "2.0 Street"
+        ],
+        "4runner": [
+            "4.0 Limited Automática",
+            "Sr5",
+            "4.0 Sr5 Fl",
+            "4.0 Limited",
+            "4.0 Limited Fl",
+            "4.0 Sr5",
+            "4.0 Sr5 Automática"
+        ],
+        "Yaris": [
+            "1.5 Xs Aut",
+            "Cross 1.5 Hev",
+            "Cross 1.5 Xls",
+            "1.5 Cross Xls",
+            "1.5 Xs"
+        ],
+        "Land": [
+            "Cruiser 4.5 Fzj75",
+            "Cruiser 4.5 Fzj73",
+            "Cruiser 300 3.4",
+            "Cruiser 4.5 Imperial"
+        ],
+        "Prado": [
+            "4.0 Tx-l Fl",
+            "2.7 Sumo Ego",
+            "3.0 Txl",
+            "2.7 Sumo",
+            "3.0 Vx Fl",
+            "3.0 Tx Fl",
+            "2.8 Tx-l",
+            "3.4 Vx",
+            "3.0 Tx-l",
+            "2.7 Tx-l Sumo",
+            "2.8 Tx-l Diesel",
+            "Txl",
+            "2.8 Tx-l At6",
+            "4.0 Tx-l",
+            "4.0 Vx Fl",
+            "3.0 Tx",
+            "3.0 Tx-l Diesel",
+            "4.0 Tx",
+            "3.0 Tx Diesel",
+            "3.0 Tx-l Fl",
+            "3.0 Txl 4x4",
+            "2.7 Tx Sumo",
+            "3.0 Vx",
+            "2.7 Diésel Tx-l"
+        ],
+        "Hilux": [
+            "4.0",
+            "2.4 Diésel 4x4",
+            "2.8 Srx",
+            "2.7 Imv 4x4",
+            "2.5 4x4",
+            "2.8",
+            "2.7",
+            "2.4l",
+            "2.7 4x4",
+            "2.8l",
+            "Doble Cabina",
+            "2.7l",
+            "2.8 Srv Diesel",
+            "3.0 Srv",
+            "2.5 Imv 4x4"
+        ],
+        "Fortuner": [
+            "2.4 Srv Diesel",
+            "2.7l 4x2",
+            "2.4 Srv",
+            "2.4",
+            "2.7 Sw4",
+            "2.4 Diésel Sr",
+            "3.0 Sr5",
+            "2.8l",
+            "2.7l",
+            "2.7l Mid",
+            "2.7",
+            "2.4 Street At",
+            "2.7 Sr5 4x4",
+            "4.0 Sr5",
+            "2.4 Sr",
+            "2.7l 4x4",
+            "Srv",
+            "2.4 Sw4 Street",
+            "2.7 Sr5"
+        ],
+        "Fj": [
+            "Cruiser 4.0",
+            "Cruiser 4.0 V6"
+        ],
+        "Corolla": [
+            "Cross Se-g Hybrid",
+            "1.8 Xli",
+            "1.8 Xei",
+            "1.6 Xei",
+            "Cross 1.8 Seg",
+            "Cross 2.0 Xe-i",
+            "1.8 Hev Seg",
+            "Cross 2.0 Seg",
+            "1.8 Se-g Hybrid",
+            "Cross 2.0 Xei",
+            "1.8 Se-g",
+            "Cross 1.8 Hev",
+            "Cross 1.8 Se-g",
+            "1.8 Xe-i",
+            "1.8 Se-g Hibrido"
+        ]
+    },
+    "Dodge": {
+        "Durango": [
+            "3.6 Limited Plus"
+        ],
+        "Journey": [
+            "2.4 Se Fl",
+            "2.4 Se/express",
+            "Se",
+            "2.4 Se/express Fl",
+            "2.4 Se",
+            "2.7 Sxt",
+            "2.4 Se 7a",
+            "2.4 Se 4x2"
+        ]
+    },
+    "Seat": {
+        "Leon": [
+            "1.6 Style"
+        ],
+        "Arona": [
+            "1.6 Fr",
+            "1.6 Reference"
+        ]
+    },
+    "Audi": {
+        "Q2": [
+            "1.0 Tfsi Ambition"
+        ],
+        "A1": [
+            "1.4 Tfsi Ambition"
+        ],
+        "Q8": [
+            "3.0 Tfsi Quattro"
+        ],
+        "Q5": [
+            "3.0 Tfsi Attraction",
+            "2.0 Tfsi Quattro",
+            "2.0 Tdi S-tronic",
+            "2.0 Tfsi S-tronic",
+            "2.0 Tdi Quattro"
+        ],
+        "A4": [
+            "1.8 Tfsi Comfort",
+            "2.0 Tfsi Ambition",
+            "1.8 Tfsi Luxury",
+            "1.8 Tfsi Ambition",
+            "1.8 Tfsi Multitronic"
+        ],
+        "Q3": [
+            "2.0 Tfsi Quattro",
+            "1.4 35 Tfsi",
+            "1.4 Tfsi Attraction",
+            "1.4 Tfsi Ambition"
+        ]
+    },
+    "Mercedes-benz": {
+        "Ml": [
+            "2.2 Cdi",
+            "3.5 4matic"
+        ],
+        "Clase": [
+            "C 2.0 Avantgarde",
+            "Gla 1.6 Urban",
+            "E 2.0 Avantgarde",
+            "E 2.0 Exclusive",
+            "Glk 3.5 4matic",
+            "B 1.6 Blueefficiency",
+            "C 2.0 Cabriolet",
+            "Gle Gle 450",
+            "A 1.6 A",
+            "Gla 200 1.6",
+            "Gle 3.0 Coupe",
+            "Gle 450 3.0",
+            "Glc 2.0 Glc",
+            "E 1.8 Cgi",
+            "Gle 3.0 Amg",
+            "A 1.4 A",
+            "Gla 1.3t Amg",
+            "Cla 1.6 Limited",
+            "Cla 2.0 Amg",
+            "C 1.8 Cgi",
+            "Cla Amg Line",
+            "C 1.6 Avantgarde",
+            "Gle 3.0 4matic",
+            "Glb 1.3 Amg",
+            "Gle 2.2 Cdi",
+            "E 200 2.0",
+            "Cla 1.6 Essential",
+            "Cla 1.6",
+            "C 1.8 Classic",
+            "Gla 1.6",
+            "Cla 1.6 Urban",
+            "Glc 2.2 Cdi",
+            "C 2.0 Cgi",
+            "E 2.0 Cgi",
+            "C 1.6",
+            "Gls 4.7 4matic",
+            "Glc 2.0 4matic"
+        ]
+    },
+    "Kia": {
+        "Rio": [
+            "1.5 Stylus",
+            "1.4 Ub Ex",
+            "1.4",
+            "1.4 Zenith",
+            "1.4 4 P",
+            "1.4 Vibrant Mt",
+            "Spice Ub Ex",
+            "1.2 5 P",
+            "1.25 5 P",
+            "1.4 Vibrant At",
+            "1.25",
+            "1.4 Vibrant Hb",
+            "1.4 5 P",
+            "1.25 4 P",
+            "1.4 Vibrant"
+        ],
+        "Cerato": [
+            "Forte 1.6",
+            "Pro 1.6l",
+            "Forte 1.6 Hb",
+            "Pro 1.6l Zenith",
+            "Forte 1.6 Sx",
+            "1.6 Vivro Vibrant",
+            "Pro 1.6 Ex",
+            "1.6 Sx"
+        ],
+        "Carens": [
+            "2.0 Rondo Ex",
+            "2.0 Suv Ex"
+        ],
+        "Picanto": [
+            "1.25 Vibrant",
+            "1.2 Vibrant",
+            "1.1 Morning",
+            "1.0 Ion",
+            "1.2 X-line At",
+            "1.2 Gt-line At",
+            "1.2 Zenith At",
+            "1.25 Ion R",
+            "1.25",
+            "1.25 Ion Xtrem",
+            "1.2 X-line",
+            "1.2 Gt-line",
+            "1.2 Zenith",
+            "1.0 Emotion",
+            "1.2 Vibrant At",
+            "1.0",
+            "1.0 Ion R"
+        ],
+        "New": [
+            "Sportage 2.0 Lx",
+            "Sportage Lx 2.0"
+        ],
+        "Sportage": [
+            "2.0 Zenith Aut",
+            "2.0l",
+            "New Sportage Lx",
+            "Gt 2.0l Gt",
+            "2.0 Gt Line",
+            "2.0 Revolution 158",
+            "2.0 Emotion Aut",
+            "2.0 Vibrant",
+            "2.4 Revolution 4x4",
+            "Fq",
+            "2.0 Revolution Lx",
+            "2.0l 4x2",
+            "2.0 Lx",
+            "2.0l Lx 4x2",
+            "2.0 Revolution Diésel",
+            "2.0 Desire",
+            "2.0 Vibrant Aut",
+            "2.0",
+            "2.0 Revolution",
+            "2.0 Revolution Gasolina",
+            "2.0 Vibrant At",
+            "2.0 Revolution Summa",
+            "2.0l Gasolina 4x2",
+            "Lx",
+            "2.0 Desire Aut"
+        ],
+        "Stonic": [
+            "1.0 Zenith"
+        ],
+        "Soul": [
+            "1.6"
+        ],
+        "Sorento": [
+            "2.2"
+        ],
+        "Seltos": [
+            "1.6l Vibrant At",
+            "1.6l Emotion At"
+        ],
+        "Niro": [
+            "1.6 Hibrido",
+            "1.6 Zenith"
+        ]
+    },
+    "Renault": {
+        "Twingo": [
+            "1.2 Access",
+            "1.2 Dynamique",
+            "1.2 U Authentique",
+            "1.2 Access +",
+            "1.2 Authentique"
+        ],
+        "Kangoo": [
+            "1.6 Express"
+        ],
+        "Megane": [
+            "1.4l",
+            "2 2.0 Odeon",
+            "2 2.0 Dynamique",
+            "1.4 Unique",
+            "1.6 Unique"
+        ],
+        "Kwid": [
+            "1.0 Outsider",
+            "1.0 Outsider Mt",
+            "Outsider",
+            "1.0 Iconic",
+            "Zen",
+            "1.0 Zen",
+            "1.0 12v"
+        ],
+        "Twizy": [
+            "Technic"
+        ],
+        "Symbol": [
+            "1.6 Luxe",
+            "1.4 Expression",
+            "1.4 Alize"
+        ],
+        "Sandero": [
+            "1.6 Automatiq",
+            "1.6 Expression 90",
+            "1.6 Life",
+            "1.6 Gt",
+            "1.6 Authentique",
+            "1.6 Authentique /",
+            "1.6 Intens /",
+            "1.6 Dynamique 110",
+            "1.6 Life Mt",
+            "1.6 Expression",
+            "1.6 Gt Line",
+            "1.6",
+            "1.6 Zen",
+            "1.6 Exclusive",
+            "1.6 Dynamique 90",
+            "Expression",
+            "1.6 Dynamique"
+        ],
+        "Fluence": [
+            "2.0 Privilege"
+        ],
+        "Trafic": [
+            "1.6l"
+        ],
+        "Alaskan": [
+            "2.5 Intens",
+            "2.5 Cargo",
+            "2.5 Zen"
+        ],
+        "Captur": [
+            "2.0 Bose Automática",
+            "2.0 Intens Automática",
+            "Intens",
+            "2.0 Intens",
+            "2.0 Zen Mecánica"
+        ],
+        "Logan": [
+            "1.6 Authentique /",
+            "1.6 Life",
+            "1.6 Authentique",
+            "1.6 Expression Fii",
+            "1.6 Privilege /",
+            "1.6 Dynamique Fii",
+            "Zen",
+            "1.6 Expression",
+            "1.6 Expression Nd",
+            "1.6 Privilege",
+            "1.6",
+            "1.4 Entry Familier",
+            "1.6 Expression /",
+            "1.6 Dynamique"
+        ],
+        "Stepway": [
+            "1.6l",
+            "1.6 Intense Mecánica",
+            "1.6 Intense Automática",
+            "1.6 Dynamique Mecánica",
+            "1.6 Trek Intens",
+            "1.6 Intens",
+            "1.6",
+            "1.6 Zen",
+            "1.6 Intens Mt",
+            "1.6 Intens Cvt",
+            "1.6 Dynamique /",
+            "1.6 Expression /",
+            "1.6 Dynamique"
+        ],
+        "Duster": [
+            "1.3 Intense Mt",
+            "1.3 Intense Cvt",
+            "1.6 Dynamique 4x2",
+            "1.6 Dynamique",
+            "2.0 Dynamique 4x2",
+            "1.6 Expression Mecánica",
+            "Oroch 1.3 Intens",
+            "1.6 Zen",
+            "Oroch 2.0 Dynamique",
+            "2.0 Dynamique",
+            "Intens Mt 1.3",
+            "1.6 Intense",
+            "Oroch 2.0 Intens",
+            "2.0 Dynamique At",
+            "2.0 Dakar Dynamique",
+            "Dynamique",
+            "1.6 Expression",
+            "1.6 Tripadvisor Intens",
+            "2.0 Expression",
+            "1.6 Zen Mt",
+            "1.6 Intense Mt",
+            "1.3 T Iconic",
+            "2.0 Dynamique 4x4",
+            "Oroch 2.0 Expression"
+        ],
+        "Koleos": [
+            "2.5 Sportway R",
+            "2.5 Sportway 4x2",
+            "2.5 Expression",
+            "2.5 Privilege",
+            "2.5 Dynamique 4x2",
+            "2.5 Dynamique Bose",
+            "2.5 Dynamique",
+            "2.5 Zen",
+            "2.5 Intens 4x4",
+            "2.5 Sportway 4x4",
+            "2.5 Intens"
+        ],
+        "Clio": [
+            "F.ii Dynamique",
+            "F.iv Expression",
+            "1.2 Sport Style",
+            "1.2 Campus",
+            "1.2 Style Ca",
+            "F.iv Rs Dynamique"
+        ]
+    },
+    "Chery": {
+        "Qq": [
+            "1.1l"
+        ],
+        "Tiggo": [
+            "1.6l"
+        ],
+        "Yoya": [
+            "1.3 Van Pass",
+            "1.5 Van Pass"
+        ]
+    },
+    "Hyundai": {
+        "Tucson": [
+            "2.0 Gls Limited",
+            "2.7 Gls",
+            "Ix-35 2.0 Gl",
+            "2.0 Gl Advance",
+            "Ix-35 2.0l",
+            "2.0 Gl",
+            "2.0 Gl Premium",
+            "Ix-35 2.0l 4x2",
+            "Ix-35 2.0l Crdi",
+            "Ix-35 2.0l 164",
+            "2.0 Gl 4x2",
+            "Ix-35 2.0 Style"
+        ],
+        "Creta": [
+            "1.6 Premium"
+        ],
+        "I30": [
+            "1.6 Gls"
+        ],
+        "I10": [
+            "1.1 Gl"
+        ],
+        "Santa": [
+            "Fe 2.4 Gls",
+            "Fe 2.4 Gl"
+        ],
+        "Elantra": [
+            "1.6l",
+            "1.6 Gls",
+            "2.0 Gls Supreme",
+            "I35 Gls 1.8"
+        ],
+        "Grand": [
+            "I10 Illusion 1.2"
+        ],
+        "Veracruz": [
+            "3.8 Gl"
+        ],
+        "Accent": [
+            "1.6 Advance",
+            "1.6l 5 P",
+            "1.6l 4 P",
+            "1.4l 4 P"
+        ],
+        "Getz": [
+            "1.6 Gl"
+        ]
+    }
+}
