@@ -4,6 +4,7 @@ from _settings import all_makes, CAR_PREDICT_URL, all_models
 import json
 from utils import format_pesos_colombianos, get_info_from_ip
 from db_manager import insert_data_into_database
+from footer import add_footer
 from PIL import Image
 MAKES = all_makes.keys()
 
@@ -70,3 +71,4 @@ with motos_tab:
         st.subheader("Disponible pronto")
 
 
+add_footer()
