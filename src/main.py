@@ -73,9 +73,10 @@ with motos_tab:
 
     moto_make = st.selectbox("🛠️ Marca de la moto", MAKES_MOTOS)
     moto_line = st.selectbox("🔧 Línea del vehículo", all_makes_motos[moto_make].keys())
-    moto_cilindraje = st.selectbox("📌 Cilindraje", all_makes_motos[moto_make][moto_line])
-    moto_kilometraje = st.number_input("Kilometraje", value = 20000)
-    moto_model = st.selectbox("Modelo", all_models)
+    moto_cilindraje = st.selectbox("📌 Cilindraje", all_makes_motos[moto_make][moto_line]['cilindraje'])
+    moto_kilometraje = st.slider("Kilometraje", min_value=10, max_value = 800000)
+    modelos = all_makes_motos[moto_make][moto_line]['modelos']
+    moto_model = st.select_slider("Modelo",options= range(int(min(modelos)-1), int(max(modelos)+2)))
 
     payload_motos = {
     "vehicle_model": moto_model,
