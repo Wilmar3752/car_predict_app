@@ -1,12 +1,13 @@
 import streamlit as st
 import requests
-from _settings import all_makes, CAR_PREDICT_URL, all_models
+from _settings import all_makes,all_makes_motos, CAR_PREDICT_URL, all_models, MOT_PREDICT_URL
 import json
 from utils import format_pesos_colombianos, get_info_from_ip
 from db_manager import insert_data_into_database
 from footer import add_footer
 from PIL import Image
 MAKES = all_makes.keys()
+MAKES_MOTOS = all_makes_motos.keys()
 
 
 # Config
@@ -65,10 +66,34 @@ with carros_tab:
                             vehicle_model, vehicle_make, vehicle_line, kilometraje, location_city, location_state, price,
                             ip=ip_data['ip'], ip_city=ip_data['city'], ip_state=ip_data['region'], ip_org=ip_data['org'],
                             ip_postal=ip_data['postal'], version=version)
+            
 with motos_tab:
-   with st.container():
+    with st.container():
         st.markdown('<style>h2{color:#007ACC;}</style>', unsafe_allow_html=True)
-        st.subheader("Disponible pronto")
 
+    moto_make = st.selectbox("🛠️ Marca de la moto", MAKES_MOTOS)
+    moto_line = st.selectbox("🔧 Línea del vehículo", all_makes_motos[moto_make].keys())
+    moto_cilindraje = st.selectbox("📌 Cilindraje", all_makes_motos[moto_make][moto_line])
+    moto_kilometraje = st.number_input("Kilometraje", value = 20000)
+    moto_model = st.selectbox("Modelo", all_models)
 
+    payload_motos = {
+    "vehicle_model": moto_model,
+    "vehicle_make": moto_make,
+    "vehicle_line": moto_line,
+    "kilometraje": moto_kilometraje,
+    "cilindraje": moto_cilindraje
+        }
+    if st.button("Predict moto"):
+        with st.spinner('Procesando...'):
+            # Realizar la solicitud POST
+            response = requests.post(MOT_PREDICT_URL, data=json.dumps(payload_motos), headers={'Content-Type': 'application/json'})
+            price = response.json()['expected_price']
+            price_print = format_pesos_colombianos(price)
+                # Asegúrate de tener una función para formatear el precio si es necesario
+            st.success(f'El precio de este vehículo es ${price_print}')
+            # insert_data_into_database(nombre, email, telefono, objetivo, 
+            #                 vehicle_model, vehicle_make, vehicle_line, kilometraje, location_city, location_state, price,
+            #                 ip=ip_data['ip'], ip_city=ip_data['city'], ip_state=ip_data['region'], ip_org=ip_data['org'],
+            #                 ip_postal=ip_data['postal'], version=version)
 add_footer()

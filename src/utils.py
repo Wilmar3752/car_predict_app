@@ -9,14 +9,14 @@ load_dotenv()
 def format_pesos_colombianos(value):
     """
     Formatea un valor numérico a una cadena representando pesos colombianos sin decimales.
-    
     Args:
-    value (float): El valor numérico a formatear.
-    
+        value (float): El valor numérico a formatear.
     Returns:
-    str: La cadena formateada.
+        str: La cadena formateada.
     """
-    return format_currency(int(round(value, 0)), 'COP', locale='es_CO', format='#,##0')
+    # Redondeamos al centenar de miles más cercano (-5 significa centenos de miles)
+    rounded_value = round(value, -5)
+    return format_currency(int(rounded_value), 'COP', locale='es_CO', format='#,##0')
 
 def client_ip():
     url = 'https://api.ipify.org?format=json'
